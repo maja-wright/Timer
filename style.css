@@ -3,14 +3,14 @@
 }
 
 body {
-  background-image: url(andrew-ruiz-XqHOx_3vcTc-unsplash.jpg);
+  background-image: url(kyle-bushnell-TyGB-4Qwnw4-unsplash.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Gloria Hallelujah', cursive;
-  color: #cea9ad;
+  color: #cf513d;
   width: 100vw;
 }
 
@@ -40,7 +40,7 @@ body {
     font-size: 7rem;
     text-align: center;
     background-color: transparent;
-    color: #f3eaeb;
+    color: #933b27;
   }
   
   .timer button {
@@ -48,7 +48,7 @@ body {
     font-size: 3.6rem;
     cursor: pointer;
     background-color: transparent;
-    color: #f3eaeb;
+    color: #933b27;
   }
   
   .timer button:focus {
