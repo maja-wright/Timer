@@ -1,0 +1,78 @@
+* {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(andrew-ruiz-XqHOx_3vcTc-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #cea9ad;
+  width: 100vw;
+}
+
+.title {
+  font-size: 5.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.circle-svg {
+    height: 35rem;
+    width: 35rem;
+    align-items: center;
+}
+  
+  .timer {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .timer input {
+    display: block;
+    border: none;
+    width: 24rem;
+    font-size: 7rem;
+    text-align: center;
+    background-color: transparent;
+    color: #f3eaeb;
+  }
+  
+  .timer button {
+    border: none;
+    font-size: 3.6rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: #f3eaeb;
+  }
+  
+  .timer button:focus {
+    outline: none;
+  }
+  
+  .timer input:focus {
+    outline: none;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
